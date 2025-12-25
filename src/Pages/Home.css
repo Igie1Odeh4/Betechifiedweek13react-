@@ -1,0 +1,20 @@
+/* Full page styling */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* full viewport height */
+  background: linear-gradient(135deg, #f5f5f5, #d9e4ff);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading style */
+.home-heading {
+  font-size: 48px;
+  color: #111;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px #aaa;
+}
